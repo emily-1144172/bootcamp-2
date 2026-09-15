@@ -18,6 +18,8 @@ for student in studenten:
     student = clean_name(student)
     print(student)
 
+print("\n")
+
 # Opdracht 2
 # Functie die de gemiddelden berekent
 def average(values: dict[str, float]):
