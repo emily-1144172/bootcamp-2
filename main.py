@@ -23,10 +23,10 @@ print("\n")
 # Opdracht 2
 # Functie die de gemiddelden berekent
 def average(values: dict[str, float]):
-    grade = 0
+    grade_total = 0
     for value in values:
-        grade += values[value]
-    average_grade = grade / len(values)
+        grade_total += values[value]
+    average_grade = grade_total / len(values)
     return average_grade
 
 
